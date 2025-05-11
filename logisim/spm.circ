@@ -226,6 +226,37 @@
     <a name="circuit" val="TCMP"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(150,420)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="reset"/>
+    </comp>
+    <comp lib="0" loc="(160,190)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="x"/>
+    </comp>
+    <comp lib="0" loc="(160,310)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(750,300)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="S"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(310,190)" name="NOT Gate"/>
+    <comp lib="4" loc="(520,290)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(150,420)" to="(540,420)"/>
+    <wire from="(160,190)" to="(280,190)"/>
+    <wire from="(160,310)" to="(510,310)"/>
+    <wire from="(310,190)" to="(400,190)"/>
+    <wire from="(400,190)" to="(400,300)"/>
+    <wire from="(400,300)" to="(510,300)"/>
+    <wire from="(510,310)" to="(510,340)"/>
+    <wire from="(540,350)" to="(540,420)"/>
+    <wire from="(570,300)" to="(750,300)"/>
   </circuit>
   <circuit name="CSAdder">
     <a name="appearance" val="logisim_evolution"/>
