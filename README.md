@@ -1,10 +1,10 @@
 # 8x8 Signed Serial-Parallel Multiplier (SPM) – CSCE2301/230 Project 2
 
-## 📚 Overview
+## Overview
 
 This project implements an **8-bit Signed Serial-Parallel Multiplier (SPM)** on the **Artix-7 FPGA** using the **Basys 3 development board**. The design multiplies two signed 8-bit integers using a hybrid Serial-Parallel architecture, balancing speed and resource efficiency. The output product is displayed on a 4-digit 7-segment display, with scrolling and control handled by onboard push buttons.
 
-## 👨‍💻 Team Members
+## Team Members
 
 - Aly Youssef
 - Omar Beheiry
@@ -14,7 +14,7 @@ This project implements an **8-bit Signed Serial-Parallel Multiplier (SPM)** on 
 
 ---
 
-## 🔧 Features
+## Features
 
 - **Serial Input Multiplier (SW7–SW0)** and **Parallel Multiplicand (SW15–SW8)**
 - **7-Segment Display Output**:
@@ -28,7 +28,7 @@ This project implements an **8-bit Signed Serial-Parallel Multiplier (SPM)** on 
 
 ---
 
-## 🧱 System Components
+## System Components
 
 ### 1. **SPM Unit (Serial-Parallel Multiplier)**
    - Processes one operand serially and the other in parallel
@@ -43,7 +43,7 @@ This project implements an **8-bit Signed Serial-Parallel Multiplier (SPM)** on 
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 
 ```bash
 ├── logisim/
