@@ -15,6 +15,6 @@ module tcmp
             y <= ~x;
         end
     end
-);
+
     
 endmodule
