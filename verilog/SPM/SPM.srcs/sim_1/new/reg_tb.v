@@ -15,9 +15,10 @@ reg rst;
 reg [7:0] inpParallel;
 reg [1:0] control;
 wire Qout0, Qout7;
+wire Qrel;
 wire [7:0] Qout;
 
-UniversalReg dut(.clk(clk), .rst(rst), .ctrl(control), .sinl(inpLeft), .sinr(inpRight), .D(inpParallel), .Q0(Qout0), .Q7(Qout7), .Q(Qout));
+UniversalReg dut(.clk(clk), .rst(rst), .ctrl(control), .sinl(inpLeft), .sinr(inpRight), .D(inpParallel), .Q0(Qout0), .Q7(Qout7), .Qrel(Qrel), .Q(Qout));
 
 reg [0:7] pattern1 = 8'b10111100;
 reg [0:7] pattern2 = 8'b10101001;

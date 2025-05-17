@@ -15,15 +15,17 @@ sinr: shift input right
 D: parallel input
 Q0: least significant bit
 Q7: most significant  bit
+Qrel: the bit that is lost in the shifts
 Q: parallel output of register
 */
-module UniversalReg(clk, rst, ctrl, sinl, sinr, D, Q0, Q7, Q);
+module UniversalReg(clk, rst, ctrl, sinl, sinr, D, Q0, Q7, Qrel, Q);
     input clk;
     input rst;
     input sinl, sinr; 
     input[1:0] ctrl; 
     input[7:0] D; 
-    output Q0, Q7; 
+    output Q0, Q7;
+    output reg Qrel;
     output[7:0] Q; 
     reg[7:0] Q;
 
@@ -33,8 +35,8 @@ module UniversalReg(clk, rst, ctrl, sinl, sinr, D, Q0, Q7, Q);
     if(rst == 1'b0)
     begin
         case(ctrl)
-            2'b01: Q <= {sinr,Q[7:1]};
-            2'b10: Q <= {Q[6:0],sinl}; 
+            2'b01: begin Qrel = Q[0]; Q <= {sinr,Q[7:1]};end
+            2'b10: begin Qrel = Q[7]; Q <= {Q[6:0],sinl};end 
             2'b11: Q <= D;
         endcase
 
