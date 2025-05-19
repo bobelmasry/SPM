@@ -2,18 +2,16 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Sat May 17 15:14:24 2025
-# Process ID: 6548
+# Start of session at: Mon May 19 18:37:23 2025
+# Process ID: 27628
 # Current directory: C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13472 C:\Users\omarbeheiry\Documents\GitHub\SPM\verilog\SPM\SPM.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28040 C:\Users\omarbeheiry\Documents\GitHub\SPM\verilog\SPM\SPM.xpr
 # Log file: C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/vivado.log
 # Journal file: C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM\vivado.jou
-# Running On: CSE-P07-216886, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+# Running On: CSE-P07-2165-06, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34016 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.xpr
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
@@ -53,25 +51,2417 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'C:/Users/omarbeheiry/Downloads/lab8-20250512T074643Z-001/SPM' since last save.
-INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.gen/sources_1', nor could it be found using path 'C:/Users/omarbeheiry/Downloads/lab8-20250512T074643Z-001/SPM/SPM.gen/sources_1'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.2. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 1227.961 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 1625.246 ; gain = 0.000
 update_compile_order -fileset sources_1
-close [ open C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/SPM.v w ]
-add_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/SPM.v
+export_ip_user_files -of_objects  [get_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/CSFA.v] -no_script -reset -force -quiet
+remove_files  C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/CSFA.v
+close [ open C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v w ]
+add_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v w ]
+add_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v w ]
+add_files -fileset sim_1 C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v
+update_compile_order -fileset sim_1
+set_property top csfa_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <csfa> not found while processing module instance <carry_save_full_adder> [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v:42]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'carry' is not permitted [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:1]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top csfa [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'carry' is not permitted [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:1]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v] -no_script -reset -force -quiet
+remove_files  C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v
+file delete -force C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v w ]
+add_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
-WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
-WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
-WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
-WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'carry' is not permitted [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:18]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:19]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-841] illegal net data type [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:14]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:19]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-841] illegal net data type [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:14]
+ERROR: [VRFC 10-841] illegal net data type [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:19]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-841] illegal net data type [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:20]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:21]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-841] illegal net data type [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:14]
+ERROR: [VRFC 10-841] illegal net data type [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:20]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register carryIn is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:21]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+ERROR: [VRFC 10-4982] syntax error near 'end' [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v:55]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'end' used in incorrect context [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v:55]
+ERROR: [VRFC 10-8530] module 'csfa_tb' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1625.246 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-2951] 'initialCin' is not a constant [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+ERROR: [VRFC 10-2951] 'initialCin' is not a constant [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:15]
+ERROR: [VRFC 10-8530] module 'csfa' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/carry_save_adder_clocked.v w ]
+add_files C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/carry_save_adder_clocked.v
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [VRFC 10-311] analyzing module tb_csfa
+ERROR: [VRFC 10-8610] 'nested module' is not allowed in this dialect; use SystemVerilog mode instead [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v:61]
+ERROR: [VRFC 10-8530] module 'csfa_tb' is ignored due to previous errors [C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/fa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'csfa_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'csfa_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj csfa_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sources_1/new/csfa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.srcs/sim_1/new/csfa_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csfa_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot csfa_tb_behav xil_defaultlib.csfa_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.csfa
+Compiling module xil_defaultlib.csfa_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot csfa_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/omarbeheiry/Documents/GitHub/SPM/verilog/SPM/SPM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "csfa_tb_behav -key {Behavioral:sim_1:Functional:csfa_tb} -tclbatch {csfa_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source csfa_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'csfa_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1636.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Sat May 17 16:08:25 2025...
+INFO: [Common 17-206] Exiting Vivado at Mon May 19 22:08:41 2025...
