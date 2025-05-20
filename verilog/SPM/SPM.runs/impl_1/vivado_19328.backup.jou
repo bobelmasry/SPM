@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue May 20 19:12:54 2025
+# Process ID: 19328
+# Current directory: C:/Users/aly-hassan-youssef/Desktop/SPM/verilog/SPM/SPM.runs/impl_1
+# Command line: vivado.exe -log SignedMultiplierDisplayTop.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SignedMultiplierDisplayTop.tcl -notrace
+# Log file: C:/Users/aly-hassan-youssef/Desktop/SPM/verilog/SPM/SPM.runs/impl_1/SignedMultiplierDisplayTop.vdi
+# Journal file: C:/Users/aly-hassan-youssef/Desktop/SPM/verilog/SPM/SPM.runs/impl_1\vivado.jou
+# Running On: CSE-P07-2168-13, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 34246 MB
+#-----------------------------------------------------------
+source SignedMultiplierDisplayTop.tcl -notrace
