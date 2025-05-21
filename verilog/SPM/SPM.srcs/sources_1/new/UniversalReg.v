@@ -30,19 +30,16 @@ module UniversalReg(clk, rst, ctrl, sinl, sinr, D, Q0, Q7, Qrel, Q);
     reg[7:0] Q;
 
     
-    always @(posedge clk, posedge rst)
-    begin
-    if(rst == 1'b0)
-    begin
-        case(ctrl)
-            2'b01: begin Qrel = Q[0]; Q <= {sinr,Q[7:1]};end
-            2'b10: begin Qrel = Q[7]; Q <= {Q[6:0],sinl};end 
-            2'b11: Q <= D;
-        endcase
-
-    end
-    else Q <= 8'b00000000;
-    
+    always @(posedge clk, posedge rst) begin
+        if (rst) begin
+                Q <= 8'b00000000;
+            end else begin
+                case(ctrl)
+                    2'b01: begin Qrel = Q[0]; Q <= {sinr, Q[7:1]}; end
+                    2'b10: begin Qrel = Q[7]; Q <= {Q[6:0], sinl}; end 
+                    2'b11: Q <= D;
+                endcase
+            end
     end
     
     assign Q0 = Q[0];

@@ -1,23 +1,18 @@
 `timescale 1ns / 1ps
 
 module DFF(
-input clk,
-input rst,
-input ld,
-input D,
-output reg Q,
-output Qb
-    );
+    input clk,
+    input rst,
+    input D,
+    output reg Q
+);
     
-    always @(posedge clk, posedge rst)begin
-    if(rst == 1'b0)begin
-        if(ld == 1'b1)
-            Q <= D;
-    end
-    else
+always @(posedge clk or posedge rst) begin
+    if (rst) begin
         Q <= 1'b0;
+    end else begin
+        Q <= D;
     end
-
-assign Qb = ~Q;
+end
 
 endmodule

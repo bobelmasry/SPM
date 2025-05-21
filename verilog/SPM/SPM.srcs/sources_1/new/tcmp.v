@@ -1,20 +1,12 @@
 `timescale 1ns/1ps
 
-module tcmp
-     (
-    input x,
-    input clk,
-    input reset,
-    output reg y
+
+module tcmp(
+    input clk, rst, a, output s
     );
-
-    always @(posedge clk) begin
-        if (reset) begin
-            y <= 1'b0;
-        end else begin
-            y <= ~x;
-        end
-    end
-
-    
+    wire Z;
+    DFF f1(clk, rst, a ^ Z, s);
+    DFF f2(clk, rst, a | Z, Z);
 endmodule
+
+

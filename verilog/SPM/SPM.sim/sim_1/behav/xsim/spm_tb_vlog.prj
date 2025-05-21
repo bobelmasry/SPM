@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SPM.srcs/sources_1/new/DFF.v" \
+"../../../../SPM.srcs/sources_1/new/SPM.v" \
+"../../../../SPM.srcs/sources_1/new/SixteenBitShiftRightReg.v" \
+"../../../../SPM.srcs/sources_1/new/UniversalReg.v" \
+"../../../../SPM.srcs/sources_1/new/carrySaveFullAdder.v" \
+"../../../../SPM.srcs/sources_1/new/chainedCSFAs.v" \
+"../../../../SPM.srcs/sources_1/new/tcmp.v" \
+"../../../../SPM.srcs/sim_1/new/spm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

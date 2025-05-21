@@ -30,30 +30,44 @@ initial begin
     forever #25 clk = ~clk; 
 end
 
-//module EightBitReg(input clk, input [1:0] ctrl, input sinl, input sinr, input [7:0] D, output Q0, output Q7, output reg [7:0] Q);
 
-reg inpA, inpB;
-wire ld = 1'b1;
-wire cin = 1'b0;
+reg inpA;
+reg cin;
+reg rst;
 wire sum;
-//wire [7:0] totalSum;
 wire carr;
 
-csfa carry_save_full_adder(clk, 1'b0, ld, inpA, inpB, cin, sum, carr); 
+tcmp dut(clk, rst, inpA, cin, sum); 
 
-reg [7:0] pattern1 = 8'b10111100;
-reg [7:0] pattern2 = 8'b11111111;
+reg [7:0] pattern1 = 8'b0100_1001;
+//reg [7:0] pattern2 = 8'b11111111;
 reg [7:0] sumTotal = 8'b0000_0000;
+
 integer i;
 initial begin
-    
+    cin = 1'b0;
+    rst = 1'b1;
+    #50;
+    rst = 1'b0;
     for(i = 0; i < 8; i = i + 1)begin
-        #50
         inpA = pattern1[i];
-        inpB = pattern2[i];
+        #50;
         sumTotal[i] = sum;
     end
     
+    #50
+    sumTotal = 8'b0000_0000;
+    
+    cin = 1'b1;
+    rst = 1'b1;
+    #50;
+    rst = 1'b0;
+    for(i = 0; i < 8; i = i + 1)begin
+        inpA = pattern1[i];
+        //inpB = pattern2[i];
+        #50;
+        sumTotal[i] = sum;
+    end
 end
 
 

@@ -12,16 +12,26 @@ Q15: most significant  bit
 Q: parallel output of register
 */
 module SixteenBitShiftRightReg(
-input clk, input rst, input ld, input bitIn, output Q0, output Q15, output reg [15:0] Q
-    );
-    
-    always @(posedge clk, posedge rst)
-    begin
-        if(rst == 1'b0 ) begin if(ld == 1'b1) Q <= {bitIn,Q[15:1]}; end
-        else Q <= 16'b0000_0000_0000_0000;
+    input clk,
+    input rst,
+    input ld,
+    input bitIn,
+    output Q0,
+    output Q15,
+    output reg [15:0] Q
+);
+
+always @(posedge clk or posedge rst)
+begin
+    if (rst) begin
+        Q <= 16'b0000_0000_0000_0000;
+    end else if (ld) begin
+        Q <= {bitIn, Q[15:1]};
     end
-    
-    assign Q0 = Q[0];
-    assign Q15 = Q[15];
+end
+
+assign Q0 = Q[0];
+assign Q15 = Q[15];
+
 endmodule
 
